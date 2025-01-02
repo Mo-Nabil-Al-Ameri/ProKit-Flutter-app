@@ -1,22 +1,57 @@
-# prokit_flutter
+# ProKit Flutter
 
-# [Buy ProKit Flutter Source Code][buy]
+## [Buy ProKit Flutter Source Code](https://codecanyon.net/item/prokit-flutter-app-ui-design-templete-kit/25787190?s_rank=1)
 
-# List of Video Tutorials
+## List of Video Tutorials
 
-- ProKit Flutter Teaser - https://www.youtube.com/watch?v=ZihgdqdQDpQ
-- Introduction to ProKit Flutter - https://www.youtube.com/watch?v=O1ymxJt87Jw
+### خطوات تشغيل التطبيق بعد تحميله:
 
-- Download and configuring Flutter and building the ProKit Flutter - https://youtu.be/QNlfN32G5As
-- How to build ProKit Flutter in Android - https://youtu.be/QKMfASEX9As
-- How to build ProKit Flutter in iOS - https://youtu.be/Hg9S6AKzWxE
-- How to extract Theme or Full App from ProKit Flutter - https://youtu.be/qLBIhQyUW3w
+1. **تثبيت إصدار Flutter المناسب:**
+   - التطبيق يعتمد على إصدار قديم من Flutter SDK. لذلك، نحتاج إلى تثبيت الإصدار 3.7.12.
 
-Note:
-- Importing mobx is a must as Mobx is used for changing colors in the entire app (eg. Dark Mode to Light Mode and vice versa).
-- Importing nb_utils is a must as nb_utils is the package that is often used in the prokit as it has many common widgets. hence it saves our time.
-- Copy the store folder from the main directory and paste it in the new project.
-- Copy this files "AppColor","AppTheme","AppWidgets","AppConstants". from utils folder located at (lib - main - utils-  files).
-- We have used localizationsDelegates in muvi app for Multi-Language support so we will delete the localizationsDelegates from the main. dart file as we don't need in the example video. (do not delete when copying muvi app.)
+2. **تجنب تضارب الحزم باستخدام FVM (Flutter Version Management):**
+   - قم بتثبيت أداة FVM من خلال الأمر التالي:
+     ```bash
+     dart pub global activate fvm
+     ```
 
-   [buy]: <https://codecanyon.net/item/prokit-flutter-app-ui-design-templete-kit/25787190?s_rank=1>
+3. **تحميل إصدار Flutter المناسب:**
+   - قم بتنزيل الإصدار المطلوب عبر:
+     ```bash
+     fvm install 3.7.12
+     ```
+
+4. **التحقق من تثبيت الإصدار:**
+   - استخدم الأمر التالي للتأكد من تثبيت الإصدار بنجاح:
+     ```bash
+     fvm list
+     ```
+   - ستظهر قائمة بجميع الإصدارات المثبتة.
+
+5. **تعيين الإصدار للاستخدام في المشروع:**
+   - قم بتعيين الإصدار 3.7.12 ليكون المستخدم في المشروع:
+     ```bash
+     fvm use 3.7.12
+     ```
+
+6. **تحميل المكاتب اللازمة:**
+   - استخدم الأمر:
+     ```bash
+     fvm flutter pub get
+     ```
+
+7. **تشغيل التطبيق:**
+   - قم بتشغيل المشروع باستخدام:
+     ```bash
+     fvm flutter run
+     ```
+
+### ملاحظات:
+- لاستخدام أي أوامر Flutter المعتادة، قم بإضافة `fvm` قبل الأمر. مثال:
+  ```bash
+  fvm flutter clean
+  ```
+  أو:
+  ```bash
+  fvm flutter pub get
+  
