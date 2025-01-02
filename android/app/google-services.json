@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20921444463",
+    "project_id": "prokitapp-d",
+    "storage_bucket": "prokitapp-d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20921444463:android:657e758c2e9108c491459a",
+        "android_client_info": {
+          "package_name": "com.iqonic.prokitflutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXCKbNs2ixECatF5pp4IR71kG-hD2NMnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
