@@ -2,7 +2,6 @@
 
 ## [Buy ProKit Flutter Source Code](https://codecanyon.net/item/prokit-flutter-app-ui-design-templete-kit/25787190?s_rank=1)
 
-## List of Video Tutorials
 
 ### خطوات تشغيل التطبيق بعد تحميله:
 
